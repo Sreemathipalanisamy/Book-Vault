@@ -6,14 +6,14 @@ Book-Vault is a console-based Library Management System developed in C. It helps
 
 ## 📌 Table of Contents
 
-- [📖 Description](#-description)  
-- [✨ Features](#-features)  
-- [⚙️ Installation](#️-installation)  
-- [🚀 Usage](#-usage)
+- [Description](#-description)  
+- [Features](#-features)  
+- [Installation](#️-installation)  
+- [Usage](#-usage)
 
 ---
 
-## 📖 Description
+## Description
 
 Book-Vault is designed for small to medium-sized libraries to maintain their book inventory using a simple command-line interface. Each book in the system contains attributes like a unique ID, title, author, quantity, and availability status. The system supports core operations like adding new books, searching by various fields, updating records, and deleting entries.
 
@@ -21,7 +21,7 @@ It also uses file handling to save and load records from a text file (`library_d
 
 ---
 
-## ✨ Features
+## Features
 
 - ➕ Add new book records with auto-incremented ID  
 - 📋 Display all books in a neat table format  
@@ -36,7 +36,7 @@ It also uses file handling to save and load records from a text file (`library_d
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 To run Book-Vault locally, follow these steps:
 
@@ -65,7 +65,10 @@ gcc -o bookvault main.c
 Once the application is running:
 
 Choose from the menu to Add, Display, Search, Update, or Delete books.
+
 Data is stored in a file named library_data.txt and automatically loaded at startup.
+
 Use integer inputs for menu selections and numeric fields.
+
 Exit the program using option 6 to ensure your data is saved.
 
