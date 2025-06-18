@@ -1,15 +1,15 @@
-# 📚 Book-Vault
+# Book-Vault
 
 Book-Vault is a console-based Library Management System developed in C. It helps manage a library's book inventory by enabling users to add, view, search, update, and delete book records. The system also supports file-based storage to persist data between sessions.
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
-- [Description](#-description)  
-- [Features](#-features)  
-- [Installation](#️-installation)  
-- [Usage](#-usage)
+- [Description](#description)  
+- [Features](#features)  
+- [Installation](#installation)  
+- [Usage](#usage)
 
 ---
 
